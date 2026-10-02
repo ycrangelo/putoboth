@@ -3,25 +3,24 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'KuroBooth ♡ — make cute memories together',
-  description: 'A playful online photobooth for two, wherever you are.',
-  generator: 'v0.app',
+  title: 'putoBoth',
+  description: 'burat saging',
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
+        url: '/korome.jpg',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon-dark-32x32.png',
+        url: '/korome.jpg',
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/icon.svg',
+        url: '/korome.jpg',
         type: 'image/svg+xml',
       },
     ],
-    apple: '/apple-icon.png',
+    apple: '/korome.jpg',
   },
 }
 
